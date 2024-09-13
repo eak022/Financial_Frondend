@@ -67,7 +67,7 @@ function Table() {
             <tr
               key={record.id}
               style={{
-                backgroundColor: record.type === 'income' ? '#d4edda' : '#f8d7da', // Green for income, red for expense
+                backgroundColor: record.category === 'income' ? '#d4edda' : '#f8d7da', // Green for income, red for expense
               }}
             >
               <th>{index + 1}</th>
